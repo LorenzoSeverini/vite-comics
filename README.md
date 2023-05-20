@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# Vite DC Comics
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+MILESTONE 1:
+Create un nuovo progetto utilizzando Vite e Vue 3
+Rimuovere i componenti del template
+Creare e importare i componenti secondo voi necessari a strutturare il layout come da screenshot allegato.
+Grazie ai vari componenti definite il layout, lavorando sulla solita struttura a blocchi colorati.
+Eliminate tutti gli stili applicati di default (style.css e app.vue)
 
-## Recommended IDE Setup
+MILESTONE 2:
+Iniziate a importare le immagini e scrivere il testo.
+Non vi soffermate sul CSS, basta il minimo per organizzare layout e contenitori, non ci interessa lo stile.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+MILESTONE 3:
+Sostituite le voci di menu che avevate scritto a mano e generatele dinamicamente. Per farlo avremo bisogno dell'uso di un array con le voci, da inserire nel data. Ragionate su dove vi serve avere il data :occhiolino:
+BONUS:
+Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+NOTE E CONSIGLI:
+Nel caso voleste usare bootstrap potete includerlo in uno dei modi discussi. Il più semplice per ora è richiamare il file nell'index.html come abbiamo sempre fatto.
