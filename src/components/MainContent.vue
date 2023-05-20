@@ -34,9 +34,28 @@
 
 <!-- style css -->
 <style scoped>
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+    padding: 2rem;
+}
+
+.main-content-container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .main-content-container-img img {
     width: 100%;
     height: auto;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    object-fit: contain;
+    object-position: center;
+    aspect-ratio: 16/9;
 }
 
 .main-content-container-img img:hover {
