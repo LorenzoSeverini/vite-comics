@@ -17,3 +17,9 @@ BONUS:
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 NOTE E CONSIGLI:
 Nel caso voleste usare bootstrap potete includerlo in uno dei modi discussi. Il più semplice per ora è richiamare il file nell'index.html come abbiamo sempre fatto.
+
+# Screenshots
+
+![Layout Screenshot](/public/vue-dc-comics-1/Screenshot%20DC%20comics1.png)
+
+![Layout Screenshot](/public/vue-dc-comics-1/Screenshot%20DC%20comics2.png)
