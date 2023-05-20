@@ -20,4 +20,4 @@ Nel caso voleste usare bootstrap potete includerlo in uno dei modi discussi. Il 
 
 # Screenshots
 
-![Layout Screenshot](/public/vue-dc-comics-1/ScreenShot%20DC%20Comics%20layout.png.png)
+![Layout Screenshot](/public/vue-dc-comics-1/ScreenShot%20DC%20Comics%20layout.png)
