@@ -38,7 +38,6 @@
 .main-content {
     width: 100%;
     height: 100%;
-    background-color: #151515;
     padding: 2rem;
 }
 
@@ -56,9 +55,5 @@
     object-fit: contain;
     object-position: center;
     aspect-ratio: 16/9;
-}
-
-.main-content-container-img img:hover {
-    opacity: 0.8;
 }
 </style>
