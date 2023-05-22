@@ -87,9 +87,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 75rem;
 }
 
 .header-nav-logo img {
@@ -107,7 +107,7 @@
 }
 
 .header-nav-menu ul li {
-  margin: 0 10px;
+  margin: 0 .625rem;
 }
 
 .header-nav-menu ul li a {
@@ -118,5 +118,8 @@
 
 .header-nav-menu ul li a:hover {
   color: #0c7cec;
+  /* when is over show underline but at the bottom ov the nav bar */
+  border-bottom: 2px solid #0c7cec;
+
 }
 </style>
