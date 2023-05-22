@@ -57,7 +57,7 @@
 
 </template>
 
-<!-- Style css -->
+<!-- Style -->
 <style lang="scss" scoped>
 
 .shop-comics {

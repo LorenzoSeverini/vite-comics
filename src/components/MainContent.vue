@@ -32,7 +32,7 @@
     </div>
 </template>
 
-<!-- style css -->
+<!-- style -->
 <style lang="scss" scoped>
 
 .main-content {

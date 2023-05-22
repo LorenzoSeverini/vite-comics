@@ -81,7 +81,7 @@
   </div>
 </template>
 
-<!-- style CSS -->
+<!-- style -->
 <style lang="scss" scoped>
 
 .header-nav {

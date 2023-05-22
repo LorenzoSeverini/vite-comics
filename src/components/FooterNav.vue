@@ -170,7 +170,7 @@
     </div>
 </template>
 
-<!-- style css -->
+<!-- style -->
 <style lang="scss" scoped>
 
 .footer-nav {
