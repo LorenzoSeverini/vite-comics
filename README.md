@@ -18,6 +18,12 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 NOTE E CONSIGLI:
 Nel caso voleste usare bootstrap potete includerlo in uno dei modi discussi. Il più semplice per ora è richiamare il file nell'index.html come abbiamo sempre fatto.
 
-# Screenshots
+MILESTONE 4:
+Create un nuovo componente che rappresenterà le card dei fumetti.
+Utilizzate i dati presenti nel file json che trovate in allegato e passateli al componente tramite le props viste oggi.
+Per le props vi consiglio di usare un oggetto (controllate il livecoding), nei link di approfondimento trovate i tipi accettabili.
+Solo una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli con Sass.
 
-![Layout Screenshot](/public/vue-dc-comics-1/ScreenShot%20DC%20Comics%20layout.png)
+# Screenshot
+
+![Layout Screenshot](/public/vue-dc-comics-1/img/ScreenShot%20DC%20Comics%20Project.png)
