@@ -1,6 +1,7 @@
 <script>
   import HeaderNav from './components/HeaderNav.vue'
   import MainContent from './components/MainContent.vue'
+  import MainSlide from './components/MainSlide.vue'
   import ShopComics from './components/ShopComics.vue'
   import FooterNav from './components/FooterNav.vue'
   import FooterBottom from './components/FooterBottom.vue'
@@ -10,6 +11,7 @@
     components: {
       HeaderNav,
       MainContent,
+      MainSlide,
       ShopComics,
       FooterNav,
       FooterBottom,
@@ -41,6 +43,8 @@
   <main>
     <!-- main content -->
     <MainContent />
+    <!-- Slide img -->
+    <MainSlide />
     <!-- Shop content -->
     <ShopComics />
   </main>
