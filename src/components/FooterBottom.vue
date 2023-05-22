@@ -85,7 +85,7 @@
 .footer-bottom-left button:hover {
     background-color: #0282f9;
     color: #312f2f;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .footer-bottom-left button:focus {
