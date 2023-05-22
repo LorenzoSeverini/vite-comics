@@ -82,9 +82,50 @@
 </template>
 
 <!-- style CSS -->
-<style scoped>
+<style lang="scss" scoped>
 
 .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 0 auto;
+  max-width: 75rem;
+
+  .header-nav-logo img {
+    width: 6.25rem;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+
+  .header-nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .header-nav-menu ul li {
+    margin: 0 .625rem;
+  }
+
+  .header-nav-menu ul li a {
+    text-decoration: none;
+    color: #313131;
+    font-weight: bold;
+  }
+
+  .header-nav-menu ul li a:hover {
+    color: #0c7cec;
+    border-bottom: 2px solid #0c7cec;
+  }
+
+}
+
+ 
+
+/* .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,8 +160,6 @@
 
 .header-nav-menu ul li a:hover {
   color: #0c7cec;
-  /* when is over show underline but at the bottom ov the nav bar */
   border-bottom: 2px solid #0c7cec;
-
-}
+} */
 </style>

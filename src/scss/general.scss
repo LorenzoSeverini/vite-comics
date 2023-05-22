@@ -1,0 +1,48 @@
+// scss
+:root 
+{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+ 
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+  
+body {
+font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+}
+  
+header {
+background-color: #dbdbdb;
+box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+}
+  
+main {
+background-color: #151515;
+margin-top: 8.625rem;
+}
+  
+footer {
+background-color: #303030;
+}

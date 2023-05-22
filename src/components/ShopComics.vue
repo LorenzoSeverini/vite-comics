@@ -58,8 +58,54 @@
 </template>
 
 <!-- Style css -->
-<style scoped>
+<style lang="scss" scoped>
+
 .shop-comics {
+    background-color: #0282f9;
+    padding: 1.25rem 0;
+
+    .shop-comics-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .shop-comics-container-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+
+            img {
+                width: 6.25rem;
+                height: 7.5rem;
+                margin-bottom: 0.625rem;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+
+            a {
+                font-size: 0.75rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 0.1rem;
+                text-decoration: none;
+                color: #fff;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+/* .shop-comics {
     background-color: #0282f9;
     padding: 1.25rem 0;
 }
@@ -102,5 +148,5 @@
 
 .shop-comics-container-item a:hover {
     text-decoration: underline;
-}
+} */
 </style>

@@ -49,9 +49,76 @@
 </template>
 
 <!-- style css -->
-<style scoped>
+<style lang="scss" scoped>
 
 .footer-bottom {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    .footer-bottom-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-bottom-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-bottom-left button {
+        background-color: #303030;
+        color: #fff;
+        padding: 1rem;
+        border: 1px solid #0282f9;
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+    }  
+    
+    .footer-bottom-left button:hover {
+        background-color: #0282f9;
+        color: #312f2f;
+    }
+
+    .footer-bottom-left button:focus {
+        outline: none;
+    }
+
+
+    .footer-bottom-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-bottom-right h3 {
+        color: #0282f9;
+        font-size: 1.25rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+
+    .footer-bottom-container-item img {
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+
+    .footer-bottom-container-item img:hover {
+        opacity: 0.5;
+    }
+
+}
+
+/* .footer-bottom {
     max-width: 75rem;
     margin: 0 auto;
     padding: 3rem 0;
@@ -85,7 +152,6 @@
 .footer-bottom-left button:hover {
     background-color: #0282f9;
     color: #312f2f;
-    /* transform: scale(1.1); */
 }
 
 .footer-bottom-left button:focus {
@@ -114,5 +180,5 @@
 
 .footer-bottom-container-item img:hover {
     opacity: 0.5;
-}
+} */
 </style>

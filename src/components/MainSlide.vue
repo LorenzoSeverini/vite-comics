@@ -118,9 +118,110 @@
 </template>
 
 <!-- style css -->
-<style scoped>
+<style lang="scss" scoped>
 
 .title {
+    max-width: 75rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: brown;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 3rem;
+            height: 0.25rem;
+            background-color: brown;
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+.slide {
+    width: 100%;
+    margin-bottom: 2rem;
+
+    .slide-container {
+        max-width: 75rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .slide-container-item {
+            width: calc(100% / 6 - 2rem);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+
+            img {
+                width: 100%;
+                height: 12.5rem;
+                margin-bottom: 1rem;
+                cursor: pointer;
+                object-fit: contain;
+                object-position: center;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+
+            p {
+                font-size: 0.75rem;
+                font-weight: 700;
+                text-align: center;
+                color: brown;
+                cursor: pointer;
+            }
+
+            h3 {
+                font-size: 0.875rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .slide-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+
+        button {
+            background-color: #303030;
+            color: #fff;
+            padding: 1rem;
+            border: 1px solid #0282f9;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0282f9;
+                color: #312f2f;
+            }
+        }
+    }
+}
+
+/* .title {
     max-width: 75rem;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -221,5 +322,5 @@
 .slide-button button:hover {
     background-color: #0282f9;
     color: #312f2f;
-}
+} */
 </style>

@@ -171,9 +171,79 @@
 </template>
 
 <!-- style css -->
-<style scoped>
+<style lang="scss" scoped>
 
 .footer-nav {
+    background-image: url('./public/vue-dc-comics-1/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 31.25rem;
+
+    .footer-nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 75rem;
+        margin: 0 auto;
+
+        .footer-nav-left {
+            display: flex;
+            justify-content:flex-start;;
+            width: 40%;
+            gap: 2rem;
+            padding-top: 1.25rem;
+
+            h3 {
+                color: #fff;
+                font-size: 1.25rem;
+                font-weight: 700;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                padding-top: 0.5rem;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        color: #9c9999;
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        cursor: pointer;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-nav-right {
+            width: 40%;
+
+            .footer-logo-bg {
+                background-image: url('./public/vue-dc-comics-1/img/dc-logo-bg.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: 37.5rem
+            }
+        }
+    }
+}
+
+/* .footer-nav {
     background-image: url('./public/vue-dc-comics-1/img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,5 +307,5 @@
     background-size: contain;
     background-position: center;
     height: 37.5rem
-}
+} */
 </style>  
